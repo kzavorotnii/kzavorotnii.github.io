@@ -8,7 +8,7 @@
 
     <title>PWA</title>
     <link rel="manifest" href="manifest.json">
-
+    <script type="text/javascript" src="index.js"></script>
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="application-name" content="pwaTest">
@@ -29,12 +29,27 @@
             left: 1px;
         }
     </style>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope:', registration.scope);
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed:', err);
+                    });
+            });
+        }
+    </script>
 </head>
 
 <body>
-    <h1>PWA</h1>
+    <h1>My first PWA</h1>
     <button class="add-button">Add to home screen</button>
-    <script type="text/javascript" src="index.js"></script>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
 </body>
 
 </html>
