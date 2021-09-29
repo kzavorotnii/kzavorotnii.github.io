@@ -1,7 +1,7 @@
 {
-  "name": "Web Community Leaders UK IE",
-  "short_name": "Web Leaders",
-  "description": "Web Community Leaders landing page",
+  "name": "Molzavod",
+  "short_name": "mol",
+  "description": "PWA Molzavod landing page",
   "lang": "en-GB",
   "start_url": "/",
   "display": "standalone",
