@@ -1,6 +1,6 @@
 'use strict';
 
-importScripts('sw-toolbox.js');
+importScripts('bower_components/sw-toolbox/sw-toolbox.js');
 
 toolbox.precache(["index.html","style/style.css"]);
 
