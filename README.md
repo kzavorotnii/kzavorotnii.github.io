@@ -1,3 +1,3 @@
-# kzavorotnii.github.io/site
+# kzavorotnii.github.io
 
 
