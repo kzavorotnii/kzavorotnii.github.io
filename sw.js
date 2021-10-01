@@ -12,9 +12,9 @@
 
 
 // WORKING 
-// 'use strict';
+'use strict';
 
-// function hndlEventFetch(evt) { }
+function hndlEventFetch(evt) { }
 
 // self.addEventListener('fetch', hndlEventFetch);
 
