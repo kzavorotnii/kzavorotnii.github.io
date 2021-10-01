@@ -1,7 +1,7 @@
 {
-  "name": "Molzavod",
-  "short_name": "mol",
-  "description": "PWA Molzavod landing page",
+  "name": "Piskarevsky Dairy Plant",
+  "short_name": "Piskarevsky",
+  "description": "PWA Piskarevsky Dairy Plant landing page",
   "lang": "en-GB",
   "start_url": "/",
   "display": "standalone",
