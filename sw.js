@@ -16,7 +16,7 @@
 
 function hndlEventFetch(evt) { }
 
-// self.addEventListener('fetch', hndlEventFetch);
+self.addEventListener('fetch', hndlEventFetch);
 
 //END
 
