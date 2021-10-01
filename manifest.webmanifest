@@ -2,7 +2,7 @@
   "name": "Piskarevsky Dairy Plant",
   "short_name": "Piskarevsky",
   "description": "PWA Piskarevsky Dairy Plant landing page",
-  "lang": "en-GB",
+  "lang": "ru",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#E6E6FA",
