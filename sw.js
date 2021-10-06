@@ -14,9 +14,9 @@
 // WORKING 
 'use strict';
 
-function hndlEventFetch(evt) { }
+function hndlEventFetch(e) { }
 
-// self.addEventListener('fetch', hndlEventFetch);
+self.addEventListener('fetch', hndlEventFetch);
 
 //END
 
