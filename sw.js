@@ -29,6 +29,7 @@ const appShellFiles = [
   '/',
   '/index.html',
   '/app.js',
+  'script/offline.js',
   '/style/style.css',
   '/icons/favicon.ico',
   '/icons/wcls-logo-512.png',
@@ -39,13 +40,6 @@ const appShellFiles = [
   '/icons/android-icon-144x144.png',
   '/icons/android-icon-192x192.png'
 ]
-
-
-// const gamesImages = [];
-// for (let i = 0; i < games.length; i++) {
-//   gamesImages.push(`data/img/${games[i].slug}.jpg`);
-// }
-// const contentToCache = appShellFiles.concat(gamesImages);
 
 const contentToCache = appShellFiles
 
